@@ -1,0 +1,40 @@
+[
+  {
+    "PORT": "27017",
+    "BASE_URL": "127.0.0.1",
+    "API_URL": "127.0.0.1/api",
+    "MONGO": 
+    {
+      "URL":"mongodb://root:1234@127.0.0.1:27017/AllDeviceDetails"
+    }
+  },
+  {
+    "PORT": "3306",
+    "BASE_URL": "127.0.0.1",
+    "API_URL": "127.0.0.1/api",
+    "MYSQL": {
+      "HOST": "127.0.0.1",
+      "USER": "root",
+      "PASSWORD": "12345",
+      "DATABASE": "p4tl",
+      "DIALECT": "mysql",
+      "dialectModulePath": "mysql"
+    }
+  },
+  {
+    "BASE_URL": "http://127.0.0.1"
+  },
+  {
+    "PORT": "3306",
+    "BASE_URL": "127.0.0.1",
+    "API_URL": "127.0.0.1/api",
+    "MYSQL": {
+      "HOST": "127.0.0.1",
+      "USER": "root",
+      "PASSWORD": "12345",
+      "DATABASE": "p4tl",
+      "DIALECT": "mysql",
+      "dialectModulePath": "mysql"
+    }
+  }
+]
