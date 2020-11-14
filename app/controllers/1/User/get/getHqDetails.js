@@ -1,6 +1,6 @@
 'use strict';
 
-const getHqDetailsModel = require('../../../../models/1/Shipper/get/getHqDetailsModel.js'); 
+const getHqDetailsModel = require('../../../../models/1/User/get/getHqDetailsModel.js'); 
 const bodyParamCheck = require('../../../../../libs/helper/bodyParamCheck'); 
 
 exports.getHqDetails = function (req, res) 

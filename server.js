@@ -47,8 +47,7 @@ app.use('/',express.static(path.join(__dirname, 'app/public')));
 
 var Routes = require('./app/routes/route');
 
-Routes.API.shipperRoute1.shipperRoute1(app);
-Routes.API.ownerRoute1.ownerRoute1(app);
+Routes.API.userRoute1.userRoute1(app);
 
 // 1 Ends
 

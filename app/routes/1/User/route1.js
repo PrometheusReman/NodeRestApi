@@ -4,11 +4,11 @@ const ValidationMiddleware = require('../../../../common/middleware/authValidati
 
 //Version 1
 
-const getHqDetailsController = require('../../../controllers/1/Shipper/get/getHqDetails');
+const getHqDetailsController = require('../../../controllers/1/User/get/getHqDetails');
 
 const apiversion = '1';
 
-const shipperRoute1 = function (app)
+const userRoute1 = function (app)
 {
     //Version 1
     //Post routes
@@ -18,5 +18,5 @@ const shipperRoute1 = function (app)
     ]);
 };
 
-module.exports = {shipperRoute1};
+module.exports = {userRoute1};
 
